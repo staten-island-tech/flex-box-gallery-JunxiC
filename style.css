@@ -9,19 +9,41 @@ body,
 .parent{
     font-size: 10px;
     display: flex;
-    width: 28%;
-    border: 1px solid rebeccapurple;
+    border: solid salmon;
     justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.child{
+    border: solid rebeccapurple;
+    margin: auto;
+    font-size: 5rem;
 }
 h2{
     margin: 1rem;
 }
 .px-size{   
-    font-size: 10px;
+    font-size: 50px;
 }
 .rem-size{
-    font-size: 1rem;
+    font-size: 5rem;
 }
 .em-size{
-    font-size: 1em;
+    font-size: 5em;
+}
+.child1{
+    border: 3px solid green;
+}
+.child2{
+    border: 3px solid yellow;
+}
+.child3{
+    border: 3px solid blue;
+}
+.about-text{
+    font-size: 5em;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    border: 3px solid maroon;
 }
