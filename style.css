@@ -19,10 +19,11 @@ body,
     border: solid salmon;
     justify-content: space-around;
     font: white;
-    align-items: center;
+    text-align: center;
     width: 90%;
     margin: 30px auto;
-    
+    flex-direction: row;
+    align-items: center;
     
 }
 .child{
@@ -48,7 +49,7 @@ h2{
 }
 .child2{
     border: 3px solid yellow;
-}
+}   
 .child3{
     border: 3px solid blue;
 }
@@ -67,7 +68,4 @@ body{
 }
 img{
     max-width: 20%;
-}
-.row1{
-    flex-direction: row;
 }
