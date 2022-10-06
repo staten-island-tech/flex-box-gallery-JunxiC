@@ -1,98 +1,64 @@
 html,
 body,
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
+  font-family: "Noto Sans Mono", monospace;
 }
-.head{
-    font-size: 50px;
-    font: white;
-    text-align: center;
-    padding: 10px;
-    border: seashell;
+.button{
+  padding: 0%;
+  margin: 0%;
+  text-align: left;
+  font-size: 200%;
 }
-
-.child{
-    border: solid rebeccapurple;
-    margin: auto;
-    color: white;
-    font-size: 5rem;
-}
-h2{
-    margin: 1rem;
-}
-.px-size{   
-    font-size: 50px;
-}
-.rem-size{
-    font-size: 5rem;
-}
-.em-size{
-    font-size: 5em;
-}
-.child1{
-    border: 3px solid green;
-}
-.child2{
-    border: 3px solid yellow;
-}   
-.child3{
-    border: 3px solid blue;
-}
-.about-text{
-    font-size: 5em;
-    text-align: center;
-    width: 30%;
-    margin: auto;
-    border: 3px solid rgb(141, 247, 53);
-    color: rgb(248, 255, 106);
-}
-body{
-    background-image: url(https://static7.depositphotos.com/1222912/788/i/450/depositphotos_7887354-stock-photo-stars-background-01.jpg);
-    background-color: #cccccc;
-    background-size: cover;
-}
-img{
-    max-width: 20%;
-}
-.about-row{
-    background-color: blue;
-    justify-content: space-between;
-    height: 100%;
-    width: 80vw;
-    margin: 0 auto;
-    align-items: center;
+body {
+  background-color: rgb(0, 34, 146);
 }
 
-.about-col{
-    background-color: indigo;
-    height: 50%;
-    width: 25%;
-    align-items: center;
-    justify-content: space-evenly;
+h1 {
+  font-size: 5vw;
+  margin: auto;
 }
-.about-img{
-    height: 25%;
-    
 
+h2 {
+    font-size: 10em;
 }
-.about{
-    height: 100vh;
-    background-color: hotpink;
-    align-items: center;
 
+.starter {
+  font-size: 600%;
+  padding: 40px;
+  align-content: center;
+  width: 50%;
+  height: auto;
+  margin: 30px auto;
+  position: relative;
+  border: 6px solid black;
+  background-color: rgb(219, 34, 222);
 }
-.grid {
-  display: flex;                       /* establish flex container */
-  flex-wrap: wrap;                     /* enable flex items to wrap */
-  justify-content: space-around;
-  
+
+.outer {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  margin: 2%;
 }
-.cell {
-  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-  height: 50px;
-  margin-bottom: 5px;
-  background-color: #999;
+
+.inner {
+  background-color: rgb(219, 34, 222);
+  border: 8px solid black;
+  border-radius: 10%;
+  width: 35rem;
+  height: 40rem;
+  margin: 2%;
+  align-content: flex-end;
+  box-shadow: 2em 2em 2em;
+}
+
+img {
+  width: 80%;
+  height: 70%;
+  margin: 10%;
 }
