@@ -62,3 +62,7 @@ img {
   height: 70%;
   margin: 10%;
 }
+.button:hover{
+  transform: scale(1.5);
+}
+  
