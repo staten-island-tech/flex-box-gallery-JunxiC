@@ -74,8 +74,10 @@ img {
 }
 .starter:hover{
   transform: scale(1.05);
-  outline: 0.5rem solid rgb(255, 157, 121);
+  box-shadow: 1rem grey;
   transition: 0.3s;
+  color: whitesmoke;
+  background-color: black;
 }
 
 .animation{
@@ -84,67 +86,283 @@ img {
   animation: test 5s infinite;
   position: absolute;
 }
+.animation2{
+  height: 2rem;
+  width: 2rem;
+  animation: test2 5s infinite;
+  position: absolute;
+}
 
 @keyframes test{
   0%{
     left: 10%;
     bottom: -100%;
-    rotate: -30deg;
-    background-color: rgb(0, 255, 115);
+    rotate: 0deg;
+    background-color: rgb(255, 21, 0);
   }
-  10%{
-    left: 15%;
-    bottom: -100%;
-    rotate: -30deg;
-    background-color: rgb(111, 0, 255);
-  }
-  20%{
-    left: 20%;
-    bottom: -100%;
-    rotate: -30deg;
-    background-color: red;
-  }
-  30%{
-    left: 25%;
-    bottom: -100%;
-    background-color: red;
-  }
-  40%{
-    left: 30%;
-    bottom: -100%;
-    background-color: red;
-  }
-  50%{
-    left: 10%;
-    bottom: -100%;
+  2%{
+    left: 12%;
+    bottom: -98%;
     rotate: 30deg;
-    background-color: red;
+    background-color: rgb(255, 119, 0);
   }
-  60%{
-    left: 15%;
+  4%{
+    left: 14%;
     bottom: -100%;
     rotate: 60deg;
-    background-color: red;
+    background-color: rgb(229, 255, 0);
   }
-  70%{
-    left: 20%;
-    bottom: -100%;
+  6%{
+    left: 16%;
+    bottom: -98%;
     rotate: 90deg;
-    background-color: red;
+    background-color: rgb(81, 255, 0);
   }
-  80%{
-    left: 25%;
+  8%{
+    left: 18%;
     bottom: -100%;
-    background-color: red;
+    rotate: 120deg;
+    background-color: rgb(0, 255, 128);
   }
-  90%{
+  10%{
+    left: 20%;
+    bottom: -98%;
+    rotate: 150deg;
+    background-color: rgb(0, 251, 255);
+  }
+  12%{
+    left: 22%;
+    bottom: -100%;
+    rotate: 180deg;
+    background-color: rgb(0, 72, 255);
+  }
+  14%{
+    left: 24%;
+    bottom: -98%;
+    rotate: 210deg;
+    background-color: rgb(21, 0, 255);
+  }
+  16%{
+    left: 26%;
+    bottom: -100%;
+    rotate: 240deg;
+    background-color: rgb(208, 0, 255);
+  }
+  18%{
+    left: 28%;
+    bottom: -98%;
+    rotate: 270deg;
+    background-color: rgb(255, 0, 157);
+  }
+  20%{
+    left: 30%;
+    bottom: -100%;
+    rotate: 300deg;
+    background-color: rgb(255, 0, 43);
+  }
+  22%{
+    left: 32%;
+    bottom: -98%;
+    rotate: 330deg;
+    background-color: rgb(255, 21, 0);
+  }
+  24%{
+    left: 34%;
+    bottom: -100%;
+    rotate: 360deg;
+    background-color: rgb(255, 119, 0);
+  }
+  26%{
+    left: 36%;
+    bottom: -98%;
+    rotate: 390deg;
+    background-color: rgb(229, 255, 0);
+  }
+  28%{
+    left: 38%;
+    bottom: -100%;
+    rotate: 420deg;
+    background-color: rgb(81, 255, 0);
+  }
+  30%{
+    left: 40%;
+    bottom: -98%;
+    rotate: 450deg;
+    background-color: rgb(0, 255, 128);
+  }
+  32%{
+    left: 42%;
+    bottom: -100%;
+    rotate: 480deg;
+    background-color: rgb(0, 251, 255);
+  }
+  34%{
+    left: 44%;
+    bottom: -98%;
+    rotate: 510deg;
+    background-color: rgb(0, 72, 255);
+  }
+  36%{
+    left: 46%;
+    bottom: -100%;
+    rotate: 540deg;
+    background-color: rgb(21, 0, 255);
+  }
+  38%{
+    left: 48%;
+    bottom: -98%;
+    rotate: 570deg;
+    background-color: rgb(208, 0, 255);
+  }
+  40%{
     left: 50%;
     bottom: -100%;
-    background-color: red;
+    rotate: 600deg;
+    background-color: rgb(255, 0, 157);
   }
   100%{
     left: 50%;
     bottom: -100%;
-    background-color: red;
+    rotate: 0deg;
+    background-color: rgb(255, 0, 157);
   }
+}
+
+@keyframes test2{
+  0%{
+    right: 10%;
+    bottom: -100%;
+    rotate: 0deg;
+    background-color: rgb(255, 21, 0);
+  }
+  2%{
+    right: 12%;
+    bottom: -98%;
+    rotate: -30deg;
+    background-color: rgb(255, 119, 0);
+  }
+  4%{
+    right: 14%;
+    bottom: -100%;
+    rotate: -60deg;
+    background-color: rgb(229, 255, 0);
+  }
+  6%{
+    right: 16%;
+    bottom: -98%;
+    rotate: -90deg;
+    background-color: rgb(81, 255, 0);
+  }
+  8%{
+    right: 18%;
+    bottom: -100%;
+    rotate: -120deg;
+    background-color: rgb(0, 255, 128);
+  }
+  10%{
+    right: 20%;
+    bottom: -98%;
+    rotate: -150deg;
+    background-color: rgb(0, 251, 255);
+  }
+  12%{
+    right: 22%;
+    bottom: -100%;
+    rotate: -180deg;
+    background-color: rgb(0, 72, 255);
+  }
+  14%{
+    right: 24%;
+    bottom: -98%;
+    rotate: -210deg;
+    background-color: rgb(21, 0, 255);
+  }
+  16%{
+    right: 26%;
+    bottom: -100%;
+    rotate: -240deg;
+    background-color: rgb(208, 0, 255);
+  }
+  18%{
+    right: 28%;
+    bottom: -98%;
+    rotate: -270deg;
+    background-color: rgb(255, 0, 157);
+  }
+  20%{
+    right: 30%;
+    bottom: -100%;
+    rotate: -300deg;
+    background-color: rgb(255, 0, 43);
+  }
+  22%{
+    right: 32%;
+    bottom: -98%;
+    rotate: -330deg;
+    background-color: rgb(255, 21, 0);
+  }
+  24%{
+    right: 34%;
+    bottom: -100%;
+    rotate: -360deg;
+    background-color: rgb(255, 119, 0);
+  }
+  26%{
+    right: 36%;
+    bottom: -98%;
+    rotate: -390deg;
+    background-color: rgb(229, 255, 0);
+  }
+  28%{
+    right: 38%;
+    bottom: -100%;
+    rotate: -420deg;
+    background-color: rgb(81, 255, 0);
+  }
+  30%{
+    right: 40%;
+    bottom: -98%;
+    rotate: -450deg;
+    background-color: rgb(0, 255, 128);
+  }
+  32%{
+    right: 42%;
+    bottom: -100%;
+    rotate: -480deg;
+    background-color: rgb(0, 251, 255);
+  }
+  34%{
+    right: 44%;
+    bottom: -98%;
+    rotate: -510deg;
+    background-color: rgb(0, 72, 255);
+  }
+  36%{
+    right: 46%;
+    bottom: -100%;
+    rotate: -540deg;
+    background-color: rgb(21, 0, 255);
+  }
+  38%{
+    right: 48%;
+    bottom: -98%;
+    rotate: -570deg;
+    background-color: rgb(208, 0, 255);
+  }
+  40%{
+    right: 50%;
+    bottom: -100%;
+    rotate: -600deg;
+    background-color: rgb(255, 0, 157);
+  }
+  100%{
+    right: 50%;
+    bottom: -100%;
+    rotate: 0deg;
+    background-color: rgb(255, 0, 157);
+  }
+}
+
+.child1:hover{
+    
 }
