@@ -364,5 +364,25 @@ img {
 }
 
 .child1:hover{
-    
+    transform: scale(1.15);
+    background-color: burlywood ;
+    rotate: 360deg;
+}
+
+.child2:hover{
+    transform: scale(1.25);
+    font-size: 125%;
+}
+
+.child3:hover{
+  transform: scale(0.5);
+}
+
+.child4:hover{
+  
+}
+
+.outer:hover .inner:not(:hover){
+  transform:scale(0.8);
+  opacity: 0.8;
 }
