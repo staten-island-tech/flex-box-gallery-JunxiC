@@ -375,11 +375,12 @@ img {
 }
 
 .child3:hover{
-  transform: scale(0.5);
+    transform: scale(0.5);
 }
 
-.child4:hover{
-  
+.child5:hover{
+    transition: 0.5s;
+    translate: 0px -200px;
 }
 
 .outer:hover .inner:not(:hover){
