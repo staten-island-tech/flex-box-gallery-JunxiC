@@ -388,50 +388,77 @@ img {
   opacity: 0.8;
 }
 
+@media (orientation:portrait) and (max-height: 1728px){
+  .starter{
+    color: royalblue;
+  }
+}
+
+@media (orientation:portrait) and (max-width: 1117px){
+  .starter{
+    color: royalblue;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 1728px){
+  .starter{
+    color: royalblue;
+  }
+}
+
+@media (orientation:landscape) and (max-height: 1117px){
+  .starter{
+    color: royalblue;
+  }
+}
+
+@media (orientation:portrait) and (max-width: 820px){
+  .starter{
+    color: cyan;
+  }
+}
+
+@media (orientation:portrait) and (max-height: 1180px){
+  .starter{
+    color: cyan;
+  }
+}
+@media (orientation:landscape) and (max-height: 820px){
+  .starter{
+    color: cyan;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 1180px){
+  .starter{
+    color: cyan;
+  }
+}
+
+@media (orientation:portrait) and (max-height: 844px){
+  .starter{
+    color: green;
+    font-size: 2.5rem;
+  }
+}
+
 @media (orientation:portrait) and (max-width: 390px){
   .starter{
     color: green;
+    font-size: 2.5rem;
   }
 }
 
-@media (orientation: landscape) and (max-width: 844px){
+@media (orientation:landscape) and (max-width: 844px){
   .starter{
     color: green;
+    font-size: 2.5rem;
   }
 }
 
-@media (orientation:portrait) and (min-width: 391px){
-  .starter{
-    color: cyan;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 845px){
-  .starter{
-    color: cyan;
-  }
-}
-
-@media (orientation:portrait) and (max-width: 1536px){
-  .starter{
-    color: cyan;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 2048px){
-  .starter{
-    color: cyan;
-  }
-}
-@media (orientation:portrait) and (max-width: 390px){
+@media (orientation:landscape) and (max-height: 390px){
   .starter{
     color: green;
+    font-size: 2.5rem;
   }
 }
-
-@media (orientation: landscape) and (max-width: 844px){
-  .starter{
-    color: green;
-  }
-}
-
